@@ -140,6 +140,7 @@ a {
 .list   {
     list-style: none;
     padding-left: 0;
+   
   
 }
 .list--inline .list__item {
@@ -212,7 +213,7 @@ a {
     font-weight: 600;
     margin: 1rem 0;
     outline: 0;
-    padding: 2rem 3rem;
+    padding: 2rem 4vw;
     text-align: center;
     text-transform: uppercase;
     white-space: nowrap;
@@ -306,6 +307,7 @@ a {
     border: 0;
     flex-grow: 1;
     padding: 1.5rem 2rem;
+    width: 0;
 }
 
 .input-group .btn {
@@ -658,6 +660,8 @@ color: #fff;
     margin: 0 auto;
 }
 
+
+
 /*navbar*/
 
 .nav {
@@ -754,8 +758,9 @@ margin: 2rem 0 5rem;
 }
 
 .block-domain__prices {
+   color: var(--color-heading);
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 6rem);
     font-size: 2rem;
     font-weight: 600;
@@ -786,7 +791,7 @@ margin: 2rem 0 5rem;
 
 .feature {
     gap: 4rem 2rem;
-    margin: 12rem 0;
+    margin: 6rem 0;
 }
 
 .feature:first-of-type {
@@ -805,6 +810,9 @@ margin: 2rem 0 5rem;
 @media screen and (min-width: 768px) {
     .feature:nth-of-type(even) .feature__content {
         order: 2;
+    }
+    .feature {
+        margin: 12rem 0;
     }
     
 }
