@@ -909,3 +909,7 @@ margin: 2rem 0 5rem;
         font-size: 1.6rem;
     }
 }
+
+.callout-signup {
+    transform: translateY(5rem);
+  }
